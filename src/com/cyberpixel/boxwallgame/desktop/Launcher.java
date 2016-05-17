@@ -1,5 +1,8 @@
+package com.cyberpixel.boxwallgame.desktop;
+
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import com.cyberpixel.boxwallgame.core.Main;
 
 public class Launcher {
 	public static void main (String[] arg) {
