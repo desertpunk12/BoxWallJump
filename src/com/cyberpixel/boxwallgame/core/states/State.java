@@ -15,5 +15,6 @@ public abstract class State {
     public abstract void handleInput(float dt);
     public abstract void resize(int width, int height);
     public abstract void dispose();
+    public abstract String getName();
 
 }
