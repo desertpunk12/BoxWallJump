@@ -60,6 +60,11 @@ public class Player {
         tex.dispose();
     }
 
+
+    public Rectangle getRect(){
+        return rect;
+    }
+
     private void jump(){
         if(atLeft) {
             vx = jumpWidth*SCALE;
@@ -73,22 +78,22 @@ public class Player {
         canJump = false;
     }
 
-    public Rectangle getRect(){
-        return rect;
-    }
-
     public void collidedLeft(){
-        if(vx<0)
-            vx=0;
-        rect.x++;
-        canJump=true;
+        if (atLeft) {
+//            if(vx<0)
+                vx=0;
+            rect.x++;
+            canJump=true;
+        }
     }
 
     public void collidedRight(){
-        if(vx>0)
-            vx=0;
-        rect.x--;
-        canJump=true;
-
+        if (!atLeft) {
+//            if(vx>0)
+                vx=0;
+            rect.x--;
+            canJump=true;
+        }
     }
+
 }

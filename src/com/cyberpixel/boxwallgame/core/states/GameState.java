@@ -39,6 +39,7 @@ public class GameState extends State {
 
     public GameState(GameStateManager gsm) {
         super(gsm);
+        tex = new Texture("box.png");
 
         cam = new OrthographicCamera(unitWidth*SCALE,unitHeight*SCALE);
         vp = new ExtendViewport(unitWidth*SCALE,unitHeight*SCALE,720,1280,cam);
@@ -48,13 +49,7 @@ public class GameState extends State {
         lwallblocks = new Array<>(wallPoolSize);
         rwallblocks = new Array<>(wallPoolSize);
 
-        for (int i = -12; i <=17 ; i++) {
-            lwallblocks.add(new WallBlock(-3*SCALE,i*SCALE,SCALE));
-            rwallblocks.add(new WallBlock(2*SCALE,i*SCALE,SCALE));
-
-        }
-
-        tex = new Texture("box.png");
+        initWalls();
     }
 
     @Override
@@ -75,6 +70,7 @@ public class GameState extends State {
         setCamera(dt);
         reuseWalls();
         playerCollision();
+        playerDeath();
 
         player.update(dt);
     }
@@ -113,6 +109,7 @@ public class GameState extends State {
         vy = Math.max(0,player.getRect().y-(camY -(unitHeight/8)*SCALE));
         cam.position.set(cam.position.x, camY,cam.position.z);
         cam.update();
+
     }
 
     private void reuseWalls(){
@@ -134,6 +131,19 @@ public class GameState extends State {
                 break;
             }
         }
+    }
+
+    private void playerDeath(){
+        if(player.getRect().y<(camY-(unitHeight*SCALE)/2))
+            resetGame();
+    }
+
+    private void initWalls(){
+        for (int i = -12; i <=17 ; i++) {
+            lwallblocks.add(new WallBlock(tex,-3*SCALE,i*SCALE,SCALE));
+            rwallblocks.add(new WallBlock(tex,2*SCALE,i*SCALE,SCALE));
+        }
+
     }
 
 }

@@ -12,16 +12,14 @@ public class WallBlock {
 
     private Texture tex;
 
-
-
-    public WallBlock(int scale){
-        this(0,0,1);
+    public WallBlock(Texture tex,int scale){
+        this(tex,0,0,scale);
     }
 
-    public WallBlock(float x, float y,int scale) {
+    public WallBlock(Texture tex,float x, float y,int scale) {
         this.rect = new Rectangle(x,y,scale,scale);
         this.SCALE = scale;
-        this.tex = new Texture("box.png");
+        this.tex = tex;
     }
 
     public void update(float dt){

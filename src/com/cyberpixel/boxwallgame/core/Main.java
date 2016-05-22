@@ -41,13 +41,12 @@ public class Main extends ApplicationAdapter {
         }
 		gsm.update(dt);
 
+        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		Gdx.gl.glClearColor(bgColor, bgColor, bgColor, 1);
-		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
 		sb.begin();
 		gsm.render(sb);
 		sb.end();
-
 	}
 
     @Override
@@ -58,6 +57,8 @@ public class Main extends ApplicationAdapter {
     @Override
 	public void dispose() {
 		super.dispose();
+        sb.dispose();
+        gsm.dispose();
 	}
 
 }
