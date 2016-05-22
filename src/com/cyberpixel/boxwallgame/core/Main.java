@@ -19,6 +19,8 @@ public class Main extends ApplicationAdapter {
 
 	private float bgColor = 24f/255f;
 
+    private float timer = 0;
+
 	@Override
 	public void create () {
 		sb = new SpriteBatch();
@@ -27,11 +29,17 @@ public class Main extends ApplicationAdapter {
 		gsm.push(new MenuState(gsm));
 	}
 
+
+
 	@Override
 	public void render () {
-		if(showTitleFPS) Gdx.graphics.setTitle(TITLE+","+bgColor+", FPS:"+Gdx.graphics.getFramesPerSecond());
-
-		gsm.update(Gdx.graphics.getDeltaTime());
+        float dt = Gdx.graphics.getDeltaTime();
+        if((timer+=dt)>1) {
+            if (showTitleFPS)
+                Gdx.graphics.setTitle(TITLE + "," + bgColor + ", FPS:" + Gdx.graphics.getFramesPerSecond());
+            timer-=1;
+        }
+		gsm.update(dt);
 
 		Gdx.gl.glClearColor(bgColor, bgColor, bgColor, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
@@ -39,6 +47,7 @@ public class Main extends ApplicationAdapter {
 		sb.begin();
 		gsm.render(sb);
 		sb.end();
+
 	}
 
     @Override

@@ -1,6 +1,5 @@
 package com.cyberpixel.boxwallgame.core.states;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.Array;
 
@@ -30,13 +29,13 @@ public class GameStateManager {
 
     public void push(State state){
         states.add(state);
-
         System.out.println("Pushed State: "+state.getName());
     }
 
     public void pop(){
         states.peek().dispose();
-        System.out.println("Popped State: "+ states.pop().getName());
+        System.out.println("Popped State: "+ states.peek().getName());
+        states.pop();
     }
 
     public void set(State state){

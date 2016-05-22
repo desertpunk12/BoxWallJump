@@ -41,6 +41,7 @@ public class MenuState extends State {
 
     }
 
+    @Override
     public String getName(){
         return NAME;
     }

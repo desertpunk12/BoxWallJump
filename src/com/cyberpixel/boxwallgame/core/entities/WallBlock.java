@@ -7,7 +7,6 @@ import com.badlogic.gdx.math.Rectangle;
 public class WallBlock {
 
     private final int SCALE;
-    private float x,y,w,h;
     private int unitsHigh;
     private Rectangle rect;
 
@@ -19,29 +18,25 @@ public class WallBlock {
         this(0,0,1);
     }
 
-    public WallBlock(float y, float x,int scale) {
-        this(x,y,1,1,scale);
-    }
-
-    public WallBlock(float x, float y, float w, float h,int scale) {
-        this.x = x;
-        this.y = y;
-        this.w = w;
-        this.h = h;
+    public WallBlock(float x, float y,int scale) {
+        this.rect = new Rectangle(x,y,scale,scale);
         this.SCALE = scale;
+        this.tex = new Texture("box.png");
     }
 
-    private void update(){
+    public void update(float dt){
 
     }
 
-    private void render(SpriteBatch sb){
-        sb.draw(tex,x,y,w*SCALE,h*SCALE);
+    public void render(SpriteBatch sb){
+        sb.draw(tex,rect.x,rect.y,-SCALE,0,SCALE,SCALE-2);
     }
 
 
 
-
+    public Rectangle getRect(){
+        return rect;
+    }
 
 
 }
