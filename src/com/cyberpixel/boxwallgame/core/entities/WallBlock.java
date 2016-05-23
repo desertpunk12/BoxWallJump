@@ -7,7 +7,6 @@ import com.badlogic.gdx.math.Rectangle;
 public class WallBlock {
 
     private final int SCALE;
-    private int unitsHigh;
     private Rectangle rect;
 
     private Texture tex;

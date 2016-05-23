@@ -32,7 +32,7 @@ public class GameState extends State {
     private final int unitWidth = 10;
     private final int unitHeight = 20;
 
-    private final float gameSpeed = 2.5f;
+    private final float gameSpeed = 2.25f;
 
     private float camY = 0;
     private float vy = 0;
@@ -44,6 +44,7 @@ public class GameState extends State {
         cam = new OrthographicCamera(unitWidth*SCALE,unitHeight*SCALE);
         vp = new ExtendViewport(unitWidth*SCALE,unitHeight*SCALE,720,1280,cam);
         vp.update(360,640);
+        cam.position.x=SCALE/2;
 
         player = new Player(-2*SCALE,5*SCALE,SCALE,gameSpeed);
         lwallblocks = new Array<>(wallPoolSize);
@@ -61,7 +62,6 @@ public class GameState extends State {
             rwallblocks.get(i).render(sb);
         }
 
-        sb.draw(tex,-SCALE*2, camY -((unitHeight/8)*SCALE),-SCALE,0,SCALE,SCALE);
         player.render(sb);
     }
 
@@ -115,7 +115,7 @@ public class GameState extends State {
     private void reuseWalls(){
         for(int i=0;i<wallPoolSize;i++){
             if(lwallblocks.get(i).getRect().y<(camY -((unitHeight+3)*SCALE*.5f)))
-                lwallblocks.get(i).getRect().setY(lwallblocks.get(i).getRect().y+(wallPoolSize*SCALE));
+                lwallblocks.get(i).getRect().setY(lwallblocks.get(i).getRect().y+((2+wallPoolSize)*SCALE));
             if(rwallblocks.get(i).getRect().y<(camY -((unitHeight+3)*SCALE*.5f)))
                 rwallblocks.get(i).getRect().setY(rwallblocks.get(i).getRect().y+(wallPoolSize*SCALE));
         }
@@ -141,7 +141,7 @@ public class GameState extends State {
     private void initWalls(){
         for (int i = -12; i <=17 ; i++) {
             lwallblocks.add(new WallBlock(tex,-3*SCALE,i*SCALE,SCALE));
-            rwallblocks.add(new WallBlock(tex,2*SCALE,i*SCALE,SCALE));
+            rwallblocks.add(new WallBlock(tex,3*SCALE,i*SCALE,SCALE));
         }
 
     }

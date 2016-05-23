@@ -7,17 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecdf6937-23b3-47f6-a7de-3e5d33da8848" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BoxWallJump/com/cyberpixel/boxwallgame/core/Main.class" afterPath="$PROJECT_DIR$/out/production/BoxWallJump/com/cyberpixel/boxwallgame/core/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BoxWallJump/com/cyberpixel/boxwallgame/core/entities/Player.class" afterPath="$PROJECT_DIR$/out/production/BoxWallJump/com/cyberpixel/boxwallgame/core/entities/Player.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BoxWallJump/com/cyberpixel/boxwallgame/core/entities/WallBlock.class" afterPath="$PROJECT_DIR$/out/production/BoxWallJump/com/cyberpixel/boxwallgame/core/entities/WallBlock.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BoxWallJump/com/cyberpixel/boxwallgame/core/states/GameState.class" afterPath="$PROJECT_DIR$/out/production/BoxWallJump/com/cyberpixel/boxwallgame/core/states/GameState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BoxWallJump/com/cyberpixel/boxwallgame/core/states/GameStateManager.class" afterPath="$PROJECT_DIR$/out/production/BoxWallJump/com/cyberpixel/boxwallgame/core/states/GameStateManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/Main.java" afterPath="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/entities/Player.java" afterPath="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/entities/Player.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/entities/WallBlock.java" afterPath="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/entities/WallBlock.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/states/GameState.java" afterPath="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/states/GameState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/states/GameStateManager.java" afterPath="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/states/GameStateManager.java" />
     </list>
     <ignored path="BoxWallJump.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,14 +52,14 @@
       <file leaf-file-name="GameState.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/states/GameState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49221185">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5070755">
+              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2246#2247#0" expanded="true" />
-                <element signature="e#2291#2292#0" expanded="true" />
-                <element signature="e#2433#2434#0" expanded="true" />
-                <element signature="e#2460#2461#0" expanded="true" />
+                <element signature="e#2197#2198#0" expanded="true" />
+                <element signature="e#2242#2243#0" expanded="true" />
+                <element signature="e#2384#2385#0" expanded="true" />
+                <element signature="e#2411#2412#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/states/GameStateManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
               <folding>
                 <element signature="e#456#457#0" expanded="true" />
                 <element signature="e#496#497#0" expanded="true" />
@@ -88,7 +84,19 @@
         <entry file="file://$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/entities/WallBlock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/entities/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,10 +141,10 @@
         <option value="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/utils/Bounds.java" />
         <option value="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/states/State.java" />
         <option value="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/states/MenuState.java" />
-        <option value="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/entities/Player.java" />
-        <option value="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/entities/WallBlock.java" />
         <option value="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/states/GameStateManager.java" />
         <option value="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/entities/WallBlock.java" />
+        <option value="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/entities/Player.java" />
         <option value="$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/states/GameState.java" />
       </list>
     </option>
@@ -155,8 +163,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="780" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -327,7 +336,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="game&#9;FILE&#9;file://C:/Users/Cyberskid/Desktop/boxwalljump/BoxWallJump/src/com/cyberpixel/boxwallgame/core/states/GameStateManager.java&#10;main&#9;FILE&#9;file://C:/Users/Cyberskid/Desktop/boxwalljump/BoxWallJump/src/com/cyberpixel/boxwallgame/core/Main.java&#10;la&#9;FILE&#9;file://C:/Users/Cyberskid/Desktop/boxwalljump/BoxWallJump/src/com/cyberpixel/boxwallgame/desktop/Launcher.java&#10;codest&#9;FILE&#9;file://C:/Users/Cyberskid/Desktop/boxwalljump/BoxWallJump/.idea/codeStyleSettings.xml&#10;state&#9;FILE&#9;file://C:/Users/Cyberskid/Desktop/boxwalljump/BoxWallJump/src/com/cyberpixel/boxwallgame/core/states/State.java" />
+    <property name="SearchEverywhereHistoryKey" value="gameSpeed&#9;PSI&#9;JAVA://com.cyberpixel.boxwallgame.core.states.GameState#gameSpeed&#10;gamespeed&#9;PSI&#9;JAVA://com.cyberpixel.boxwallgame.core.states.GameState#gameSpeed&#10;game&#9;FILE&#9;file://C:/Users/Cyberskid/Desktop/boxwalljump/BoxWallJump/src/com/cyberpixel/boxwallgame/core/states/GameStateManager.java&#10;main&#9;FILE&#9;file://C:/Users/Cyberskid/Desktop/boxwalljump/BoxWallJump/src/com/cyberpixel/boxwallgame/core/Main.java&#10;la&#9;FILE&#9;file://C:/Users/Cyberskid/Desktop/boxwalljump/BoxWallJump/src/com/cyberpixel/boxwallgame/desktop/Launcher.java&#10;codest&#9;FILE&#9;file://C:/Users/Cyberskid/Desktop/boxwalljump/BoxWallJump/.idea/codeStyleSettings.xml&#10;state&#9;FILE&#9;file://C:/Users/Cyberskid/Desktop/boxwalljump/BoxWallJump/src/com/cyberpixel/boxwallgame/core/states/State.java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -684,7 +693,7 @@
       <workItem from="1463569735918" duration="946000" />
       <workItem from="1463676771951" duration="15456000" />
       <workItem from="1463769862290" duration="18890000" />
-      <workItem from="1463863424381" duration="17226000" />
+      <workItem from="1463863424381" duration="21616000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized LibGDX IntelliJ Desktop Project">
       <created>1463500607989</created>
@@ -702,21 +711,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63285000" />
+    <option name="totallyTimeSpent" value="67675000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="780" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985073" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3313433" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37761194" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3768546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21512482" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -749,14 +758,14 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="584" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3313433" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37833828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37761194" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21512482" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -811,8 +820,8 @@
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -823,10 +832,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
-            <element signature="e#2433#2434#0" expanded="true" />
-            <element signature="e#2460#2461#0" expanded="true" />
+            <element signature="e#2197#2198#0" expanded="true" />
+            <element signature="e#2242#2243#0" expanded="true" />
+            <element signature="e#2384#2385#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -837,10 +846,6 @@
           <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -867,10 +872,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
-            <element signature="e#2433#2434#0" expanded="true" />
-            <element signature="e#2460#2461#0" expanded="true" />
+            <element signature="e#2197#2198#0" expanded="true" />
+            <element signature="e#2242#2243#0" expanded="true" />
+            <element signature="e#2384#2385#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -881,10 +886,6 @@
           <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -895,8 +896,8 @@
           <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -950,10 +951,10 @@
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
-            <element signature="e#2433#2434#0" expanded="true" />
-            <element signature="e#2460#2461#0" expanded="true" />
+            <element signature="e#2197#2198#0" expanded="true" />
+            <element signature="e#2242#2243#0" expanded="true" />
+            <element signature="e#2384#2385#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1007,10 +1008,10 @@
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
-            <element signature="e#2433#2434#0" expanded="true" />
-            <element signature="e#2460#2461#0" expanded="true" />
+            <element signature="e#2197#2198#0" expanded="true" />
+            <element signature="e#2242#2243#0" expanded="true" />
+            <element signature="e#2384#2385#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1119,17 +1120,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/entities/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
-          </folding>
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,18 +1136,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/entities/WallBlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1162,7 +1149,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/states/GameStateManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
           <folding>
             <element signature="e#456#457#0" expanded="true" />
             <element signature="e#496#497#0" expanded="true" />
@@ -1172,16 +1159,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/states/GameState.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/entities/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49221185">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
-            <element signature="e#2433#2434#0" expanded="true" />
-            <element signature="e#2460#2461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyberpixel/boxwallgame/core/states/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5070755">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2197#2198#0" expanded="true" />
+            <element signature="e#2242#2243#0" expanded="true" />
+            <element signature="e#2384#2385#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
           </folding>
         </state>
       </provider>
